@@ -1,0 +1,10 @@
+# data/cfdrone.yaml
+
+# Paths to folders containing your IMAGES (not the label .txt files)
+train: images/train
+val:   images/val
+test:  images/test
+
+# class names, indexed from 0
+names:
+  0: cfdrone
