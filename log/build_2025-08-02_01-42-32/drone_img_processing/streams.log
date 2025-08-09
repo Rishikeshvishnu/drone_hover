@@ -1,0 +1,25 @@
+[0.660s] Invoking command in '/home/rishikesh/Desktop/drone_hover/src/drone_img_processing': PYTHONPATH=/home/rishikesh/Desktop/drone_hover/build/drone_img_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishikesh/Desktop/drone_hover/install/drone_img_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_img_processing build --build-base /home/rishikesh/Desktop/drone_hover/build/drone_img_processing/build install --record /home/rishikesh/Desktop/drone_hover/build/drone_img_processing/install.log --single-version-externally-managed install_data
+[0.898s] running egg_info
+[0.899s] writing ../../build/drone_img_processing/drone_img_processing.egg-info/PKG-INFO
+[0.899s] writing dependency_links to ../../build/drone_img_processing/drone_img_processing.egg-info/dependency_links.txt
+[0.899s] writing entry points to ../../build/drone_img_processing/drone_img_processing.egg-info/entry_points.txt
+[0.900s] writing requirements to ../../build/drone_img_processing/drone_img_processing.egg-info/requires.txt
+[0.900s] writing top-level names to ../../build/drone_img_processing/drone_img_processing.egg-info/top_level.txt
+[0.901s] reading manifest file '../../build/drone_img_processing/drone_img_processing.egg-info/SOURCES.txt'
+[0.901s] adding license file 'LICENSE'
+[0.902s] writing manifest file '../../build/drone_img_processing/drone_img_processing.egg-info/SOURCES.txt'
+[0.902s] running build
+[0.902s] running build_py
+[0.902s] copying drone_img_processing/drone_img_coord_pub.py -> /home/rishikesh/Desktop/drone_hover/build/drone_img_processing/build/lib/drone_img_processing
+[0.902s] running install
+[0.903s] running install_lib
+[0.903s] copying /home/rishikesh/Desktop/drone_hover/build/drone_img_processing/build/lib/drone_img_processing/drone_img_coord_pub.py -> /home/rishikesh/Desktop/drone_hover/install/drone_img_processing/lib/python3.10/site-packages/drone_img_processing
+[0.904s] byte-compiling /home/rishikesh/Desktop/drone_hover/install/drone_img_processing/lib/python3.10/site-packages/drone_img_processing/drone_img_coord_pub.py to drone_img_coord_pub.cpython-310.pyc
+[0.905s] running install_data
+[0.905s] running install_egg_info
+[0.907s] removing '/home/rishikesh/Desktop/drone_hover/install/drone_img_processing/lib/python3.10/site-packages/drone_img_processing-0.0.0-py3.10.egg-info' (and everything under it)
+[0.907s] Copying ../../build/drone_img_processing/drone_img_processing.egg-info to /home/rishikesh/Desktop/drone_hover/install/drone_img_processing/lib/python3.10/site-packages/drone_img_processing-0.0.0-py3.10.egg-info
+[0.908s] running install_scripts
+[0.926s] Installing drone_img_coord_pub script to /home/rishikesh/Desktop/drone_hover/install/drone_img_processing/lib/drone_img_processing
+[0.926s] writing list of installed files to '/home/rishikesh/Desktop/drone_hover/build/drone_img_processing/install.log'
+[0.944s] Invoked command in '/home/rishikesh/Desktop/drone_hover/src/drone_img_processing' returned '0': PYTHONPATH=/home/rishikesh/Desktop/drone_hover/build/drone_img_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishikesh/Desktop/drone_hover/install/drone_img_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_img_processing build --build-base /home/rishikesh/Desktop/drone_hover/build/drone_img_processing/build install --record /home/rishikesh/Desktop/drone_hover/build/drone_img_processing/install.log --single-version-externally-managed install_data
