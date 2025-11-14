@@ -1,0 +1,12 @@
+build/
+install/
+log/
+cache/
+yolo/
+.vscode/
+__pycache__/
+*.pyc
+CLAUDE.md
+practice.py
+py310-requirements.txt
+

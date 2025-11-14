@@ -1,3 +1,0 @@
-[console_scripts]
-drone_img_coord_pub = drone_img_processing.drone_img_coord_pub:main
-
