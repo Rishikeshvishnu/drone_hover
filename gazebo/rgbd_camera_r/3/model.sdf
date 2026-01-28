@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <model name="rgbd_camera_right">
+        <link name="camera_link_right">
+            <pose>0 0 0 0 0 0</pose>
+            <inertial>
+                <pose>0 -0.01 0.0245 0 0 0</pose>
+                <mass>0.3</mass>
+                <inertia>
+                    <ixx>0.000150025</ixx>
+                    <ixy>0</ixy>
+                    <ixz>0</ixz>
+                    <iyy>0.00074065</iyy>
+                    <iyz>0</iyz>
+                    <izz>0.0007706249999999999</izz>
+                </inertia>
+            </inertial>
+            <collision name="collision_top">
+                <pose>0 -0.02 0.034 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>0.165 0.040 0.030 0 0 0</size>
+                    </box>
+                </geometry>
+            </collision>
+            <collision name="collision_base">
+                <pose>0 -0.010 0.00725 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>0.06 0.060 0.015 0 0 0</size>
+                    </box>
+                </geometry>
+            </collision>
+
+            <visual name="visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://rgbd_camera_r/3/meshes/3dCamera.DAE</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+            <sensor name="rgbd" type="rgbd_camera">
+                <pose>-0.2 0 0 3.926991 3.141593 -4.2</pose>
+                <topic>camera_right</topic>
+                <update_rate>50</update_rate>
+                <enable_metrics>false</enable_metrics>
+                <visualize>true</visualize>
+                <camera>
+                    <horizontal_fov>1.1775</horizontal_fov>
+                    <image>
+                        <width>640</width>
+                        <height>480</height>
+                        <format>RGB_INT8</format>
+                        <anti_aliasing>4</anti_aliasing>
+                    </image>
+                    <trigger_topic></trigger_topic>
+                    <triggered>false</triggered>
+                    <clip>
+                        <near>0.05</near>
+                        <far>100</far>
+                    </clip>
+                    <save enabled='false'>
+                        <path>__default__</path>
+                    </save>
+                    <visibility_mask>4294967295</visibility_mask>
+                    <noise>
+                    <type>none</type>
+                    <mean>0</mean>
+                    <stddev>0</stddev>
+                    </noise>
+                    <distortion>
+                    <k1>0</k1>
+                    <k2>0</k2>
+                    <k3>0</k3>
+                    <p1>0</p1>
+                    <p2>0</p2>
+                    <center>0.5 0.5</center>
+                    </distortion>
+                    <lens>
+                        <intrinsics>
+                            <fx>479.223578</fx>
+                            <fy>479.223578</fy>
+                            <cx>319.5</cx>
+                            <cy>239.5</cy>
+                            <s>0</s>
+                        </intrinsics>
+                    </lens>
+                    <optical_frame_id></optical_frame_id>
+                </camera>
+            </sensor>
+            <sensor name="seg" type="segmentation">
+                <pose>-0.2 0 0 3.926991 3.141593 -4.2</pose>
+                <topic>camera_right_semantic</topic>
+                <update_rate>50</update_rate>
+                <camera>
+                    <segmentation_type>semantic</segmentation_type>
+                    <horizontal_fov>1.1775</horizontal_fov>
+                    <image>
+                        <width>640</width>
+                        <height>480</height>
+                        <format>RGB_INT8</format>
+                    </image>
+                    <clip>
+                        <near>0.05</near>
+                        <far>100</far>
+                    </clip>
+                </camera>
+            </sensor>
+        </link>
+    </model>
+</sdf>

@@ -1,0 +1,3 @@
+[submodule "gazebo/crazyflie_models"]
+	path = gazebo/crazyflie_models
+	url = git@github.com:Rishikeshvishnu/gazebo_updcfmodel.git
